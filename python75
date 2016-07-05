@@ -1,0 +1,7 @@
+pythin修改时间：
+####将时间往前或者往后
+## 导入import datetime：
+import datetime
+d1 = datetime.datetime.now()
+d3 = datetime.date(d1.year,d1.month+1,d1.day)
+d2 = d3.strftime('%Y-%m-%d')
